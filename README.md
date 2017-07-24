@@ -14,3 +14,4 @@ Combo_simulations.R - R code to run the three versions of the combined count and
 BDOW_combo_wrapper.R - R code to run the barred owl application (uses the data in the excel file and the code in the model file). Contains code to import and reshape the data and run the model file in JAGS.
 
 BDOW_combo_model.R - R file containing the JAGS code.
+
