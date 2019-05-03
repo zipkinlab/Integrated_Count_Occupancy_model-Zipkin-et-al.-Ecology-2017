@@ -1,8 +1,5 @@
 ##R code to process results and create panels for figure 4
 
-
-load("AHAB_OUT.RData")
-
 ##############################
 #gamma
 #############################
