@@ -22,13 +22,13 @@ rm(list=ls())
 # Reshape data
 #######################################################################
 # Read in data 
-model.file<-file.choose() # select BDOW_combo_model.R
+model.file<-file.choose() # select BDOW_combo_model_cloglog.R
 
 #set working directory (all files must be here)
 setwd(dirname(model.file))
 
 # import data
-raw.data<-read.csv("coastal_final.csv",header=TRUE) 
+raw.data<-read.csv("BDOW_combo_data.csv",header=TRUE) 
 
 # Replace unsampled entries with NA
 raw.data[raw.data=="."]<-NA
