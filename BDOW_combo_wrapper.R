@@ -11,7 +11,7 @@ rm(list=ls())
 #is in left handside of Figure 4e, which shows the relationship between
 #percent of area surveyed and the detection probability.
 
-#We included an updated pdf of Figure 4e in the Girhub repo for reference.
+#We included an updated pdf of Figure 4e in the Github repo for reference.
 
 
 ##########################################
