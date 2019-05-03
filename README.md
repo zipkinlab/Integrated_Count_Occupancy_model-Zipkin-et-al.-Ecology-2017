@@ -17,7 +17,8 @@ There is increasing need for methods that integrate multiple data types into a s
 ## **Code**
 [Combo_simulations.R](https://github.com/zipkinlab/Zipkin_etal_2017_Ecol/blob/master/Combo_simulations.R) - R code to run the three versions of the combined count and detection-nondetection model described in the main text of the published paper. For each modeling scenario, we provide the code to: 1) simulate data, 2) generate a script file with the JAGS model (including likelihood and prior distributions for all parameters), and 3) create initial values and run the JAGS file.
 
-[BDOW_combo_wrapper.R](https://github.com/zipkinlab/Zipkin_etal_2017_Ecol/blob/master/BDOW_combo_wrapper.R) - R code to run the barred owl application (uses the data in the excel file and the code in the model file). Contains code to import and reshape the data and run the model file in JAGS.
+[BDOW_combo_wrapper.R](https://github.com/zipkinlab/Zipkin_etal_2017_Ecol/blob/master/BDOW_combo_wrapper.R) - R code to run the barred owl application (uses the data in the csv file and the JAGS code in the model file). Contains code to import and reshape the data and run the model file in JAGS.
 
-[BDOW_combo_model.R](https://github.com/zipkinlab/Zipkin_etal_2017_Ecol/blob/master/BDOW_combo_model.R) - R file containing the JAGS code.
+[BDOW_combo_model_cloglog.R](https://github.com/zipkinlab/Zipkin_etal_2017_Ecol/blob/master/BDOW_combo_model_cloglog.R) - R file containing the JAGS code.
 
+[BDOW_figure4_graphs.R](https://github.com/zipkinlab/Zipkin_etal_2017_Ecol/blob/master/BDOW_figure4_graphs.R) - R file with code to create panels b-e in Figure 4 of the paper.
